@@ -1,0 +1,537 @@
+.container {
+  padding-top: 10px;
+}
+
+.form-container,
+.table-container 
+{
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.form-container
+{
+    border:thin solid #aaaaaa;
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background: #f7f7f7;
+}
+
+
+.logout
+{
+    margin-bottom:30px;
+}
+
+/* link buttons */
+.green-button,
+.red-button,
+.blue-button
+{
+  padding: 7px 10px;
+  font-size: 0.875rem;
+  line-height: normal;
+  border-radius: 0.2rem;
+  color: #fff;
+  background-color: #ffc107;
+  border: #e1a900 solid 2px;
+  margin-right: 10px;
+  position: relative;
+  top: 1px;  
+  text-decoration: none;
+  cursor:pointer;
+}
+
+.green-button
+{
+    background-color: #ffc107;
+    border: #e1a900 solid 2px;
+}
+
+.red-button
+{
+    background-color: #ffc107;
+    border: #e1a900 solid 2px;
+}
+
+.blue-button
+{
+    background-color: #ffc107;
+    border: #e1a900 solid 2px;
+}
+
+.green-button:hover,
+.red-button:hover,
+.blue-button:hover
+{
+    border: #e1a900 solid 2px;
+    background-color: #dfa907;
+    text-decoration: none;
+    color:#fff;
+}
+
+.green-button:focus,
+.red-button:focus,
+.blue-button:focus{
+    border: #e1a900 solid 2px;
+    background-color: #dfa907;
+    text-decoration: none;
+    color:#fff;
+}
+/* end of link buttons */
+
+
+
+
+input [type="button"] 
+{
+color:pink;
+}
+
+
+.table-container table
+{
+    width:100%;
+    border-collapse:collapse;
+    justify-content: center;
+    text-align: center;
+}
+
+.table-container thead
+{
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.table-container tbody tr
+{
+    height:6em;
+    margin-bottom: 20px;
+}
+
+.table-container thead th,
+.table-container tbody td
+{
+    padding:5px;
+    padding-bottom: 25px;
+    border-radius: 30px;
+    
+}
+.table-container tbody tr:nth-child(odd) 
+{
+    background-color: #ffefc0;
+    
+}
+
+.table-container tbody tr:nth-child(even) 
+{
+    background-color: rgb(255, 255, 255);
+}
+
+.add-new-product
+{
+    margin-top:1em;
+}
+
+/* logged in user's profile photo */
+#profilePhoto
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: thin solid #aaa;
+    float:right;
+    background-size:contain;
+}
+/* end of logged in user's profile photo */
+
+
+.productPhotos
+{
+    margin: 0 auto;
+    text-align: center;
+    overflow-x: auto;
+    white-space: nowrap;
+    min-width:18em;
+    max-width:18em;
+}
+
+.productPhotos img
+{
+    width:10em;
+    height:10em;
+    padding:0em;
+    margin:0em;
+    margin-right:0.5em;
+}
+
+
+.payPalMessage
+{
+    width:50%;    
+    margin: 0 auto;
+    padding:50px;    
+}
+
+.ok
+{
+    text-align: center;
+}
+
+#payPalPaymentIDButton
+{
+    margin-top:50px;
+}
+
+#payPalPaymentID
+{
+    font-weight: bold;
+}
+.products{
+    font-size: 20px;
+}
+
+.view {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.viewpaypal {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.view-title {
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.order-view {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.data{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 2%;
+    margin-bottom: 10px;
+}
+
+.avatarek {
+    vertical-align: middle;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+}
+
+.test {
+    width: 150px;
+    height: 150px;
+}
+
+.info {
+    flex: 0 0 75%;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.button-profile-active-bigger {
+    background-color: #ffc107;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+.button-profile-active-big {
+    background-color: #ffc107;
+    border: none;
+    color: black;
+    padding: 13.125px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14.75px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+.button-profile-active-mid {
+    background-color: #ffc107;
+    border: none;
+    color: black;
+    padding: 11.25px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13.5px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+.button-profile-active-small {
+    background-color: #ffc107;
+    border: none;
+    color: black;
+    padding: 9.375px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+.button-profile-active-smaller {
+    background-color: #ffc107;
+    border: none;
+    color: black;
+    padding: 7.5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+.button-profile-nonactive {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 13.125px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14.75px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+.button-order {
+    background-color: #ffc107;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10%;
+}
+
+.table-order {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.th, .td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    word-break: break-all;
+}
+
+.td-image {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+  
+.th-profile, .td-profile {
+    padding: 8px;
+    text-align: center;
+}
+  
+.th-profile {
+    background-color: #ffc107;
+    color: black;
+}
+
+.two-row-view {
+    width: 70%;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.about-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 15px;
+    width: 60px;
+    height: 60px;
+}
+
+.about-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-left: 15px;
+    width: 200px;
+}
+
+.about-p {
+    text-align: left;
+}
+
+.about-view {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-map {
+    width: 300px;
+    max-width: 80%;
+}
+
+/* ----------------------------------------- */
+
+.sale-view {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.table-container2 {
+    padding: 0 10%;
+    margin: 40px auto 0;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: #f1f1f1;
+}
+
+.admin{
+    padding-right: 30px;
+}
+
+.table2 {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table2 thead {
+    background-color: #ffc107;
+}
+
+.table2 thead tr th { 
+    font-size: 14px;
+    font-weight: normal;
+    opacity: 1;
+    color: #ffffff;
+    padding: 12px;
+    vertical-align: top;
+    border: 1px solid black;  
+}
+
+.table2 tbody tr td {
+    font-size: 14px;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.table2 tbody tr td .button-profile-active-mid {
+    width: 50px;
+    text-decoration: none;
+    line-height: 35px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid transparent;
+    user-select: none;
+}
+
+@media (max-width: 768px) {
+    .table2 thead {
+        display: none;
+    }
+
+    .table2, .table2 tbody, .table2 tr, .table2 td {
+        display: block;
+        width: 100%;
+    }
+
+    .table2 tr {
+        margin-bottom: 15px;
+    }
+
+    .table2 tbody tr td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+    }
+
+    .table2 td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        text-align: left;
+    }
+}
